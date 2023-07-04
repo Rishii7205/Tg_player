@@ -15,15 +15,15 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "❰𝗞𝗵𝘂𝗻𝗶 𝗫 𝗠𝘂𝘀𝗶𝗰❱")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "❰𝐓𝐆 𝗫 𝐌𝐔𝐒𝐈𝐂❱")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5230338052").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/massom0097773/KhuniPlayer")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/rishii7205_tg_playerr")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "bikash")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/about_meeBachaa")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/innocentop")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/jam_music_updates")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/jam_music_support")
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "1800000"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "1800000"))
@@ -36,11 +36,11 @@ AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", "True")
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "3"))
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "19609edb1b9f4ed7be0c8c1342039362")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "409e31d3ddd64af08cfcc3b0f064fcbe")
 VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "5"))
-SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "50"))
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "50"))
+SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "120"))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "120"))
 CLEANMODE_DELETE_MINS = int(getenv("CLEANMODE_MINS", "12"))
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
@@ -54,7 +54,7 @@ STRING5 = getenv("STRING_SESSION5", None)
 
 ############################
 COMMAND_PREFIXES.append('')
-OWNER_ID.append(5230338052)
+OWNER_ID.append()
 ############################
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
@@ -68,20 +68,20 @@ clean = {}
 autoclean = []
 ############################
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/9c816d97efbbfc8a032dd.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://te.legra.ph/file/4802a1892c897f7ef4ef0.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/cc2e7f7585fcbf418ec7e.jpg")
+PING_IMG_URL = getenv("https://telegra.ph/file/3f4c018348c94c23eaffd.jpg")
 
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
-GLOBAL_IMG_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/4802a1892c897f7ef4ef0.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/4802a1892c897f7ef4ef0.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/9c816d97efbbfc8a032dd.jpg"
+PLAYLIST_IMG_URL = "https://te.legra.ph/file/cc2e7f7585fcbf418ec7e.jpg"
+GLOBAL_IMG_URL = "https://te.legra.ph/file/cc2e7f7585fcbf418ec7e.jpg"
+STATS_IMG_URL = "https://te.legra.ph/file/cc2e7f7585fcbf418ec7e.jpg"
+TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/cc2e7f7585fcbf418ec7e.jpg"
+TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/cc2e7f7585fcbf418ec7e.jpg"
+STREAM_IMG_URL = "https://te.legra.ph/file/cc2e7f7585fcbf418ec7e.jpg"
+SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/cc2e7f7585fcbf418ec7e.jpg"
+YOUTUBE_IMG_URL = "https://te.legra.ph/file/cc2e7f7585fcbf418ec7e.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/cc2e7f7585fcbf418ec7e.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/cc2e7f7585fcbf418ec7e.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/cc2e7f7585fcbf418ec7e.jpg"
 
 
 def time_to_seconds(time):
