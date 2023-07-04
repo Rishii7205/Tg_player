@@ -54,7 +54,7 @@ async def play_commnd(
 ):
     if not await is_served_user(message.from_user.id):
         await message.reply_text(
-            text="Innocent error, You're Not A Verified User ❌\nPlease Click On The Below Button To Verify Yourself .",
+            text="Jam error, You're Not A Verified User ❌\nPlease Click On The Below Button To Verify Yourself .",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
