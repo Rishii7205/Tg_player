@@ -1,4 +1,4 @@
-## Powered by Aditya & Bikash Halder 
+## Powered by 𝗝𝗔𝗠 𝗦𝗘𝗥𝗩𝗘𝗥 
 
 import random
 from Bikash import Bgt
