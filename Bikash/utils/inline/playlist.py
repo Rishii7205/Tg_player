@@ -14,7 +14,7 @@ def botplaylist_markup(_):
         ],
         [           
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://t.me/about_meeBachaa"
+                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://t.me/jam_music_updates"
             ),
         ],
         [
