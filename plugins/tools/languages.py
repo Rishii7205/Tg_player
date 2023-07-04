@@ -102,7 +102,7 @@ async def language_markup(client, CallbackQuery, _):
 
 
 
-# Power By @BikashHalder & @AdityaHalder 
-# Join @BikashGadgetsTech For More Update
-# Join @AdityaCheats For Hack
-# Join Our Chats @Bgt_Chat & @Adityadiscus 
+# Powered By @roprish
+# Join @jam_music_updates For More Update
+# Join @jam_music_support For Hack
+# Join Our Chats @about_rishu
