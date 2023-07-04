@@ -1,7 +1,8 @@
-# Powered By @BikashHalder & @AdityaHalder 
-# Join @BikashGadgetsTech For More Updates
-# Join @AdityaCheats For Hacks
-# Join Our Chats @Bgt_Chat & @Adityadiscus 
+# Powered By @roprish
+# Join @jam_music_updates For More Update
+# Join @jam_music_support For Hack
+# Join Our Chats @about_rishu
+
 
 import asyncio
 import time
@@ -142,7 +143,7 @@ async def start_comm(client, message: Message, _):
                 )
             return
         if name[0:3] == "inf":
-            m = await message.reply_text("🔎")
+            m = await message.reply_text("💮")
             query = (str(name)).replace("info_", "", 1)
             query = f"https://www.youtube.com/watch?v={query}"
             results = VideosSearch(query, limit=1)
@@ -311,7 +312,3 @@ async def welcome(client, message: Message):
 
 
 
-# Powered By @BikashHalder & @AdityaHalder 
-# Join @BikashGadgetsTech For More Updates
-# Join @AdityaCheats For Hacks
-# Join Our Chats @Bgt_Chat & @Adityadiscus 

@@ -1,7 +1,7 @@
-# Powered By @BikashHalder & @AdityaHalder 
-# Join @BikashGadgetsTech For More Updates
-# Join @AdityaCheats For Hacks
-# Join Our Chats @Bgt_Chat & @Adityadiscus 
+# Powered By @roprish
+# Join @jam_music_updates For More Update
+# Join @jam_music_support For Hack
+# Join Our Chats @about_rishu
 
 
 from pyrogram.types import (InlineKeyboardButton,
@@ -79,7 +79,3 @@ async def inline_query_handler(client, query):
 
 
 
-# Powered By @BikashHalder & @AdityaHalder 
-# Join @BikashGadgetsTech For More Updates
-# Join @AdityaCheats For Hacks
-# Join Our Chats @Bgt_Chat & @Adityadiscus 
