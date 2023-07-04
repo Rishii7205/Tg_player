@@ -12,7 +12,7 @@ from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
 
 from Bikash import app
-from Bikash.misc import SUDOERS
+from Bikash.misc import OWNER_ID
 
 
 async def aexec(code, client, message):
@@ -31,14 +31,14 @@ async def edit_or_reply(msg: Message, **kwargs):
 
 @app.on_message(
     filters.command("eval")
-    & filters.user(1439222689)
+    & filters.user(OWNER_ID)
     & ~filters.forwarded
     & ~filters.via_bot
 )
 async def executor(client, message):
     if len(message.command) < 2:
         return await edit_or_reply(
-            message, text="**🥀 𝐒𝐢𝐫 𝐆𝐢𝐯𝐞 𝐌𝐞 𝐂𝐦𝐝 𝐭𝐨 𝐄𝐱𝐞𝐜𝐮𝐭𝐞 ?**"
+            message, text="**ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴇxᴇᴄᴜᴛᴇ ?**"
         )
     try:
         cmd = message.text.split(" ", maxsplit=1)[1]
@@ -69,7 +69,7 @@ async def executor(client, message):
         evaluation = "Success"
     final_output = f"**OUTPUT**:\n```{evaluation.strip()}```"
     if len(final_output) > 4096:
-        filename = "output.txt"
+        filename = "COMPLETED.txt"
         with open(filename, "w+", encoding="utf8") as out_file:
             out_file.write(str(evaluation.strip()))
         t2 = time()
@@ -77,7 +77,7 @@ async def executor(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="⏳",
+                        text="💮",
                         callback_data=f"runtime {t2-t1} Seconds",
                     )
                 ]
@@ -97,7 +97,7 @@ async def executor(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="⏳",
+                        text="💮",
                         callback_data=f"runtime {round(t2-t1, 3)} Seconds",
                     ),
                     InlineKeyboardButton(
@@ -126,7 +126,7 @@ async def forceclose_command(_, CallbackQuery):
     if CallbackQuery.from_user.id != int(user_id):
         try:
             return await CallbackQuery.answer(
-                "🥀 𝐘𝐨𝐮 𝐀𝐫𝐞 𝐍𝐨𝐭 𝐀𝐥𝐥𝐨𝐰 𝐓𝐨 𝐂𝐥𝐨𝐬𝐞 𝐓𝐡𝐢𝐬 𝐈𝐭'𝐥𝐥 𝐁𝐞 ❌", show_alert=True
+                "» ɪᴛ'ʟʟ ʙᴇ ʙᴇᴛᴛᴇʀ ɪғ ʏᴏᴜ sᴛᴀʏ ɪɴ ʏᴏᴜʀ ʟɪᴍɪᴛs.", show_alert=True
             )
         except:
             return
@@ -139,14 +139,14 @@ async def forceclose_command(_, CallbackQuery):
 
 @app.on_message(
     filters.command("sh")
-    & filters.user(1439222689)
+    & ~filters.user(OWNER_ID)
     & ~filters.forwarded
     & ~filters.via_bot
 )
 async def shellrunner(client, message):
     if len(message.command) < 2:
         return await edit_or_reply(
-            message, text="** 𝐄𝐱𝐚𝐦𝐩𝐥𝐞 :**\n/sh git pull"
+            message, text="**ᴇxᴀᴍᴩʟᴇ :**\n/sh git pull"
         )
     text = message.text.split(None, 1)[1]
     if "\n" in text:
@@ -196,15 +196,15 @@ async def shellrunner(client, message):
         output = None
     if output:
         if len(output) > 4096:
-            with open("output.txt", "w+") as file:
+            with open("COMPLETED.txt", "w+") as file:
                 file.write(output)
             await client.send_document(
                 message.chat.id,
-                "output.txt",
+                "COMPLETED.txt",
                 reply_to_message_id=message.message_id,
                 caption="`Output`",
             )
-            return os.remove("output.txt")
+            return os.remove("COMPLETED.txt")
         await edit_or_reply(
             message, text=f"**OUTPUT:**\n```{output}```"
         )
