@@ -1,7 +1,7 @@
-# Powered By @BikashHalder & @AdityaHalder 
-# Join @BikashGadgetsTech For More Update
-# Join @AdityaCheats For Hack
-# Join Our Chats @Bgt_Chat & @Adityadiscus 
+# Powered By @roprish
+# Join @jam_music_updates For More Update
+# Join @jam_music_support For Hack
+# Join Our Chats @about_rishu
 
 from pyrogram import filters
 from pyrogram.types import Message
@@ -34,7 +34,3 @@ async def unmute_admin(Client, message: Message, _, chat_id):
 
 
 
-# PoweredBy @BikashHalder & @AdityaHalder 
-# Join @BikashGadgetsTech For More Update
-# Join @AdityaCheats For Hack
-# Join Our Chats @Bgt_Chat & @Adityadiscus 

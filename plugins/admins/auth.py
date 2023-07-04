@@ -1,7 +1,8 @@
-# Powered By @BikashHalder & @AdityaHalder 
-# Join @BikashGadgetsTech For More Updates
-# Join @AdityaCheats For Hacks
-# Join Our Chats @Bgt_Chat & @Adityadiscus 
+# Powered By @roprish
+# Join @jam_music_updates For More Update
+# Join @jam_music_support For Hack
+# Join Our Chats @about_rishu
+
 
 
 from pyrogram import filters
@@ -158,7 +159,7 @@ async def authusers(client, message: Message, _):
         await message.reply_text(text)
 
 
-# Powered By @BikashHalder & @AdityaHalder 
-# Join @BikashGadgetsTech For More Updates
-# Join @AdityaCheats For Hacks
-# Join Our Chats @Bgt_Chat & @Adityadiscus 
+# # Powered By @roprish
+# Join @jam_music_updates For More Update
+# Join @jam_music_support For Hack
+# Join Our Chats @about_rishu
