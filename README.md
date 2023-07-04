@@ -1,13 +1,11 @@
-### Powered By @massomop
+### Powered By [𝐉𝐀𝐌 𝐒𝐄𝐑𝐕𝐄𝐑](https://t.me/jam_music_support)
 
-### Join @innocentpapabolte For More Update
+### Join @jam_music_updates  For More Update
 
-### Join @about_meeBacha For Sayri
-
-### Join Our Chats @innocentop
+### Join Our Chats @jam_music_support
 
 
-### Powered By [@massomop](https://t.me/massomop)
+### Powered By [𝗝𝗮𝗺 𝗦𝗲𝗿𝘃𝗲𝗿](https://t.me/jam_music_support)
 
 
 ### ABOUT THIS BOT
@@ -24,13 +22,13 @@
 [Kaali Linux](https://youtu.be/_nZT5lhcL8U)
 
 ## ⚒️ 𝐂𝐫𝐞𝐝𝐢𝐭
-[𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭](https://t.me/massomop)
+[𝗚𝗛𝗢𝗦𝗧](https://t.me/got_my_own_version)
 
 ## Telegram 🏪
 
-[![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/innocentop)
+[![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/jam_music_support)
 
-[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/about_meeBacha)
+[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/jam_music_updates)
 
 
 
@@ -38,7 +36,7 @@
 
 ### Deploy To Heroku
 
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/massom0097773/KhuniPlayer)
+[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/rishii7205/tg_playerr)
 
 ## VPS DEPLOY                                                                                          
 💥 𝐎𝐧𝐥𝐲 𝐅𝐨𝐫 𝐅𝐢𝐫𝐬𝐭 𝐓𝐢𝐦𝐞 (𝐕𝐏𝐒) 💞
@@ -52,7 +50,7 @@
 4) nvm install node
 
 5. Clone the Repository :
-git clone https://github.com/massom0097773/KhuniPlayer &&  cd KhuniPlayer
+git clone https://github.com/rishii7205/tg_playerr  &&  cd  tg_playerr
 
 6. Install Installer : 
 pip3 install -r Installer
@@ -63,26 +61,18 @@ Edit Internal with your values or you can simple copy a config from here and pas
 Press I button on keyboard to start editing.
 Press Ctrl + C  once you are done with editing vars and type :wq to save Internal or :qa to exit editing.
 
-9. Finally Run BGT Music Bot :
+9. Finally Run Tg Music Bot :
 python3 -m modules 
 
 
 #### 🥺 Copy Pasters You Can Copy This Repo But Must Give Credits ...
 
 ### 🌷 Owner Of This Repository 🇮🇳
-[![𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭](https://te.legra.ph/file/4802a1892c897f7ef4ef0.jpg)](https://t.me/massomop)
+[𝐑𝐎𝐏𝐑𝐈𝐒𝐇](https://te.legra.ph/file/cc2e7f7585fcbf418ec7e.jpg)
 
 
-#### Main Developer = [𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭](https://t.me/massomop)
+#### Main Developer = [ʀɪsʜʀᴏᴘ](https://t.me/rishrop)
 
-## 💕 Special Thanks
 
-✅ Aditya Halder Thanks For Fixed All Error Or Lovely Support 💕
 
-### 🥳 𝐒𝐩𝐞𝐜𝐢𝐚𝐥 𝐓𝐡𝐚𝐧𝐤𝐬 𝐅𝐨𝐫 𝐓𝐡𝐞𝐢𝐫 𝐒𝐨𝐮𝐫𝐜𝐞𝐬 🥳
-
-- [TeamYukki](https://github.com/teamyukki)
-- [Pyrogram](https://github.com/pyrogram/pyrogram)
-- [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
-
-## 🥀 Powered By [𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭](https://t.me/massomop) 
+## 🥀 Powered By [𝐉𝐚𝐦 𝐒𝐞𝐫𝐯𝐞𝐫](https://t.me/jam_music_support) 
