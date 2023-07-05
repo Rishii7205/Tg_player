@@ -12,7 +12,7 @@ from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
 
 from Bikash import app
-from Config import OWNER_ID
+from config import OWNER_ID
 
 
 async def aexec(code, client, message):
