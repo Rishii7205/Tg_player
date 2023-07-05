@@ -36,7 +36,7 @@
 
 ### Deploy To Heroku
 
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/rishii7205/tg_playerr)
+[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/rishii7205/tg_player)
 
 ## VPS DEPLOY                                                                                          
 💥 𝐎𝐧𝐥𝐲 𝐅𝐨𝐫 𝐅𝐢𝐫𝐬𝐭 𝐓𝐢𝐦𝐞 (𝐕𝐏𝐒) 💞
@@ -50,7 +50,7 @@
 4) nvm install node
 
 5. Clone the Repository :
-git clone https://github.com/rishii7205/tg_playerr  &&  cd  tg_playerr
+git clone https://github.com/rishii7205/tg_player &&  cd  tg_player
 
 6. Install Installer : 
 pip3 install -r Installer
