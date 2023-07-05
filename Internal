@@ -1,16 +1,16 @@
-UPSTREAM_REPO=https://github.com/KhuniVillan/KhuniPlayer
+UPSTREAM_REPO=https://github.com/rishii7205/Tg_playerr
 UPSTREAM_BRANCH=bikash
 AUTO_DOWNLOADS_CLEAR=True
 API_ID=
 API_HASH=
 BOT_TOKEN=
-MONGO_DB_URI=mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=majority
-OWNER_ID=5230338052
+MONGO_DB_URI=mongodb+srv://Devarora0987:#Dev12345@cluster0.razivtc.mongodb.net/?retryWrites=true&w=majority
+OWNER_ID=5908843784
 DURATION_LIMIT=1200
-LOG_GROUP_ID=
-MUSIC_BOT_NAME=Khuni X Music
+LOG_GROUP_ID=-1001664742905
+MUSIC_BOT_NAME=Tg X Music
 STRING_SESSION=
-SUPPORT_CHANNEL=https://t.me/Dil_se_dil_tak_01
-SUPPORT_GROUP=https://t.me/lovingfriendsforever
+SUPPORT_CHANNEL=https://t.me/jam_music_updates
+SUPPORT_GROUP=https://t.me/jam_music_support
 
 
