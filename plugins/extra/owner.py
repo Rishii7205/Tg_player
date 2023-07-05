@@ -26,7 +26,7 @@ async def owner(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🥀 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 🥀", url=f"https://t.me/jam_music_support
+                        "🥀 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 🥀", url=f"https://t.me/jam_music_support")
                     ),
                     InlineKeyboardButton(
                         "🥀 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 🥀", url=f"https://t.me/jam_music_updates")
