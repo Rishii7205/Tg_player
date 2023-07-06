@@ -58,7 +58,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [           
             InlineKeyboardButton(
-                text="♨️ 𝐂𝐇𝐀𝐍𝐍𝐄𝐋♨️", url=f"https://t.me/jam_music_updates"
+                text="♨️ 𝐂𝐇𝐀𝐍𝐍𝐄𝐋♨️", url=f"https://t.me/no_more_visible"
             )
         ],
         [
