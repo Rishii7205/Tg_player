@@ -59,7 +59,7 @@ async def update_bot(_, message: Message):
     chat_id = message.chat.id
     msg = await message.reply_text("**🥀 𝐉𝐚𝐦 𝐂𝐡𝐞𝐜𝐤𝐢𝐧𝐠 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ✨ ...**")
     update_avail = updater()
-    os.system("git config --global user.name 'rishii7205'")
+    os.system("git config --global user.name 'Rishii7205'")
     os.system("git config --global user.email 'krishankumarswarn@gmail.com'")
     # os.system("git config --global credential.helper store")
     # os.system("echo 'https://{GIT_NAME}:{GIT_TOKEN}@github.com' > ~/.git-credentials")
